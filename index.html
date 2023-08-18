@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hostal Casa Taisha</title>
+  <link rel="stylesheet" href="index.css">
+  <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+</head>
+
+<body>
+  <header>
+    <h2 class="logo">Hotel Casa Taisha</h2>
+    <input type="checkbox" id="check">
+    <label for="check" class="mostrar-menu">
+      &#8801
+    </label>
+    <a class="link" href="#">Inicio</a>
+    <a class="link" href="#hab">Habitaciones</a>
+    <a class="link" href="#reservarBtn">Reservar</a>
+    <nav class="menu">
+      <a href="#">Inicio</a>
+      <a href="#">Habitaciones</a>
+      <a href="#">Reservar</a>
+      <label for="check" class="esconder-menu">
+        &#215
+      </label>
+    </nav>
+  </header>
+  <section class="banner">
+    <div class="contenido-banner">
+      <h3 class="nombre">Hotel Casa Taisha</h3>
+      <h4>Montañita, Ecuador</h4>
+      <button class="reservar" id="reservarBtn">Reservar</button>
+    </div>
+  </section>
+  <div class="review">
+    <img class="imgre" src="img/trip2.png">
+    <img class="imgre" src="img/trip3.jpg">
+    <img class="imgre" src="img/booki.png">
+
+    <p class="book">9.3</p>
+  </div>
+  <section id="hab">
+    <h2 class="incluyen">Nuestras Habitaciones</h2>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <div class="slick-slider">
+      <div><img src="img/habcuad1.jpg" alt="Imagen 1"></div>
+      <div><img src="img/habmat1.jpg" alt="Imagen 2"></div>
+      <div><img src="img/habmat2.jpg" alt="Imagen 3"></div>
+      <div><img src="img/habtrip1.jpg" alt="Imagen 3"></div>
+      <div><img src="img/habtrip2.jpg" alt="Imagen 3"></div>
+      <div><img src="img/habtrip3.jpg" alt="Imagen 3"></div>
+      <div><img src="img/habtrip4.jpg" alt="Imagen 3"></div>
+      <div><img src="img/terra1.jpg" alt="Imagen 3"></div>
+      <div><img src="img/terra2.jpg" alt="Imagen 3"></div>
+      <div><img src="img/amaca.jpg" alt="Imagen 3"></div>
+      <div><img src="img/cocina.jpg" alt="Imagen 3"></div>
+      <!-- Agrega más imágenes aquí -->
+    </div>
+    <button class="boton-saber-mas" id="saberMasBtn">Saber más</button>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <h2>Características</h2>
+        <ul>
+          <li>Habitacion para dos personas</li>
+          <li>Baño privado</li>
+          <li>Ducha con agua caliente</li>
+          <li>Cocina compartida</li>
+        </ul>
+        <span id="cerrarModal">&times;</span>
+      </div>
+    </div>
+  </section>
+  <section id="ubicacion">
+
+    <h5 class="incluyen">Conoce nuestra ubicacion</h5>
+
+    <p class="hab2">Nuestra ubicación será la clave de su descanso! Estamos ubicados frente al mar, en la
+      mitad de la playa, nos mantenemos lo suficientemente alejados del ruido nocturno del pueblo, que
+      invita permanentemente a la fiesta y entretenimiento, pero lo suficientemente cerca para ir y
+      regresar caminando.
+
+      Así mismo, estamos a 5 minutos a pie de La Punta, punto principal de surf y límite con la siguiente
+      playa llamada Olón.</p>
+    <div class="mapa">
+      <iframe id="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1993.8977412650454!2d-80.7548514046005!3d-1.8245675744181562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902dd4c33b8c8491%3A0x18a5b7bebb91f0cc!2sHostal%20Casa%20Taisha!5e0!3m2!1ses-419!2sar!4v1682948137383!5m2!1ses-419!2sar"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+  <section id="comentarios">
+    <h5 class="incluyen">Comentarios de nuestros clientes</h5>
+  </section>
+
+  <div id="coment">
+    <div class="bandera1">
+      <h3>Jorgelina, España</h3><img id="bandera" src="./img/españa.png">
+      <p class="comen">Excelente! Esta muy bien ubicada, fuera de la cuadra principal pero muy cerca a la
+        vez, estas lejos de la bulla. Tienes acceso a la playa a una cuadra. Los dueños son geniales y
+        muy atentos, es limpia y con camas muy cómodas. Es una excelente opción.</p>
+    </div>
+    <div class="bandera2">
+      <h3>Brian, Eeuu</h3><img id="bandera" src="./img/eeuu.png">
+      <p class="comen">¡La mejor ubicación! Nos alojamos en este albergue en Año Nuevo y no podríamos
+        estar más contentos con nuestra decisión. Aunque era un poco más caro de lo que estamos
+        acostumbrados, también lo son la mayoría de los alojamientos en esta ciudad costera. Está
+        ubicado tan cerca de la playa que puedes escuchar las olas, pero está lo suficientemente lejos
+        de la ciudad principal como para dormir bien por la noche. Tenga en cuenta que Montañita es
+        extremadamente ruidoso por la noche, y es posible que desee encontrar un alojamiento que esté un
+        poco fuera del área principal.</p>
+    </div>
+    <div class="bandera3">
+      <h3>Lucas, Argentina</h3><img src="./img/arg.png" id="bandera">
+      <p class="comen">Excelente!
+        Esta muy bien ubicada, fuera de la cuadra principal pero muy cerca a la vez, estas lejos de la
+        bulla. Tienes acceso a la playa a una cuadra. Los dueños son geniales y muy atentos, es limpia y
+        con camas muy cómodas. Es una excelente opción.</p>
+    </div>
+    <div class="bandera4">
+      <h3>Clara, Chile</h3><img src="./img/chile.png" id="bandera">
+      <p class="comen">Hostal limpio y tranquilo, a un minuto a pie de la playa
+        Recomienda este hostal si quieres un lugar tranquilo y cómodo lo suficientemente lejos de la
+        ciudad como para relajarte. Justo al lado de la playa y un corto paseo por la playa hasta el
+        centro de bares y restaurantes. Dormitorios o habitaciones privadas disponibles, buenos precios.
+      </p>
+    </div>
+    <div></div>
+  </div>
+  <h4 class="cc">Dejanos tu comentario</h4>
+  <div class="coco">
+    <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+    <input type="email" id="email" name="email" placeholder="Email">
+    <textarea type="text" id="mensaje" name="mensaje" placeholder="Deja tu comentario"></textarea>
+    <input type="submit" id="enviar" value="Enviar">
+
+  </div>
+
+  <footer>Pagina Web realizada por Maximiliano Donofrio</footer>
+
+  <script src="index.js"></script>
+
+</body>
+
+</html>
