@@ -604,8 +604,9 @@ footer{
         border-top: 1px solid aqua;
         border-bottom: 1px solid aqua;
         background: rgb(168, 240, 240);
-        margin-top: 60px;
+        margin-top: 10px;
         margin-bottom: 100px;
+        width: 100%;
     }
     
     #hab {
@@ -829,7 +830,7 @@ footer{
     transition: 0.4s;
     margin-top: 30px;
    
-    font-family: 'Kaushan Script', cursive;
+    font-family: mifuente;
     text-decoration: none;
     cursor:pointer;
      }
