@@ -529,7 +529,7 @@ footer{
          
     
     .contenido-banner {
-        position: relative;
+        position: absolute;
         
         color: white;
         display: flex;
@@ -539,7 +539,7 @@ footer{
     }
     
     .nombre {
-        margin-top: 50px;
+        margin-top: 0px;
         font-weight: 600;
         align-items: center;
         color: aqua;
@@ -566,7 +566,7 @@ footer{
         align-self: baseline;
         font-weight: 800;
         transition: 0.4s;
-        margin-top: -100px;
+        margin-top: 0px;
         align-self: center;
         font-family: mifuente;
         border-radius: 15px;
