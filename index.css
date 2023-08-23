@@ -1,8 +1,13 @@
+@font-face {
+    font-family: mifuente;
+    src: url(./kaushan-script/KaushanScript-Regular.ttf);
+}
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Kaushan Script', cursive;
 }
+
+
 
 header {
     height: 60px;
@@ -21,7 +26,7 @@ header {
     text-transform: uppercase;
     color: aqua;
     font-weight: 200;
-    font-family: 'Kaushan Script', cursive;
+    font-family: mifuente;
     font-size: 20px;
 
 }
@@ -543,7 +548,7 @@ footer{
         font-weight: 600;
         align-items: center;
         color: aqua;
-        font-family: 'Kaushan Script', cursive;
+        font-family: mifuente;
         font-size: 50px;
         
     }
