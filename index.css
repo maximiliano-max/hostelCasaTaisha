@@ -566,7 +566,7 @@ footer{
         align-self: baseline;
         font-weight: 800;
         transition: 0.4s;
-       
+        margin-top: -100px;
         align-self: center;
         font-family: mifuente;
         border-radius: 15px;
@@ -783,7 +783,7 @@ footer{
         margin-top: 30px;
         align-self: center;
         font-family: 'Kaushan Script', cursive;
-        width: 350px;
+        width: 320px;
         height: 10px;
     }
     
@@ -800,7 +800,7 @@ footer{
     margin-top: 30px;
     align-self: center;
     font-family: 'Kaushan Script', cursive;
-    width: 350px;
+    width: 320px;
     height: 10px;
     }
     
@@ -818,7 +818,7 @@ footer{
     align-self: center;
     font-family: 'Kaushan Script', cursive;
     height: 300px;
-    width: 95%;
+    max-width: 300px;
     text-align: center;
     
     }
@@ -837,10 +837,7 @@ footer{
     font-family: 'Kaushan Script', cursive;
     text-decoration: none;
     cursor:pointer;
-    
-    
-    
-    }
+     }
     
    
     .cc {
