@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Kaushan Script', cursive;
 }
 
 header {
@@ -19,7 +19,7 @@ header {
 
 .logo {
     text-transform: uppercase;
-    color: rgb(5, 41, 41);
+    color: aqua;
     font-weight: 200;
     font-family: 'Kaushan Script', cursive;
     font-size: 20px;
