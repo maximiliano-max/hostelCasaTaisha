@@ -541,12 +541,12 @@ footer{
     }
     
     .nombre {
-        margin-top: 0px;
+        margin-top: 20px;
         font-weight: 600;
-        align-items: center;
+        text-align: center;
         color: aqua;
         font-family: mifuente;
-        font-size: 60px;
+        font-size: 50px;
         
     }
     
@@ -565,11 +565,11 @@ footer{
         font-size: 25px;
         color: #0a0a0a;
         padding: 10px 20px;
-        align-self: baseline;
+        
         font-weight: 800;
         transition: 0.4s;
         margin-top: 20px;
-        align-self: center;
+        
         font-family: mifuente;
         border-radius: 15px;
         background-color: rgb(180, 209, 209);
@@ -593,16 +593,7 @@ footer{
     }
     
     .book {
-        background-color: rgb(13, 64, 160);
-        font-size: 25px;
-        border-radius: 10px;
-        align-items: center;
-        text-align: center;
-        max-height: 35px;
-        color: aliceblue;
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
-        position:absolute;
-        margin-left: 310px;
+        display: none;
        
     }
     
