@@ -17,7 +17,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: 'Kaushan Script', cursive;
+    font-family: mifuente;
 
 }
 
@@ -162,7 +162,7 @@ header {
     transition: 0.4s;
     margin-top: 100px;
     align-self: center;
-    font-family: 'Kaushan Script', cursive;
+    font-family: mifuente;
     border-radius: 15px;
     background-color: rgb(180, 209, 209);
 }
@@ -493,11 +493,6 @@ footer{
 }
 
 @media(max-width: 500px) {
-    * {
-        margin: 0;
-        padding: 0;
-        font-family: 'Kaushan Script', cursive;
-    }
     
     header {
         height: 60px;
@@ -507,17 +502,17 @@ footer{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        font-family: 'Kaushan Script', cursive;
+        
     
     }
     
     
     .logo {
-        text-transform: uppercase;
+        
         color: aqua;
-        font-weight: 200;
+        
         font-family: mifuente;
-        font-size: 15px;
+        font-size: 25px;
     
     }
     
@@ -527,7 +522,7 @@ footer{
         text-decoration: none;
         padding: 0 10px;
         transition: 0.4s;
-        font-family: 'Kaushan Script', cursive;
+        font-family: mifuente;
         font-size: 15px;
     
     }
@@ -558,7 +553,7 @@ footer{
     .contenido-banner h4 {
         text-align: center;
         font-size: 25px;
-        font-family: 'Kaushan Script';
+        font-family: mifuente;
     }
     
     .reservar {
@@ -573,7 +568,7 @@ footer{
         transition: 0.4s;
        
         align-self: center;
-        font-family: 'Kaushan Script', cursive;
+        font-family: mifuente;
         border-radius: 15px;
         background-color: rgb(180, 209, 209);
     }
@@ -608,7 +603,7 @@ footer{
     }
     
     .incluyen {
-        font-family: 'Kaushan Script', cursive;
+        font-family: mifuente;
         font-weight: 300;
         font-size: 30px;
         border-top: 1px solid aqua;
@@ -693,6 +688,7 @@ footer{
         margin-top: 30px;
         font-size: 20px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
     }
     
     #ubicacion h5{
