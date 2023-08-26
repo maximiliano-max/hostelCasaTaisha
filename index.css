@@ -672,9 +672,9 @@ footer {
 
     #hab img {
         border-radius: 20%;
-        width: 482px;
+        width: 472px;
         height: 320px;
-
+        padding: 20px;
         cursor: pointer;
 
     }
@@ -756,7 +756,7 @@ footer {
         height: 230px;
         border-radius: 5%;
         background: aqua;
-        float: right;
+        float: right important;
     }
 
     #bandera {
