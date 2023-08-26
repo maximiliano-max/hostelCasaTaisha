@@ -31,20 +31,19 @@ window.onclick = function (event) {
 }
 
 document.getElementById("reservarBtn").addEventListener("click", function () {
-    var numeroTelefono = "123456789";  // Reemplaza con el número de teléfono de WhatsApp
+    var numeroTelefono = "123456789";  
     var mensaje = "¡Hola! Quiero hacer una reserva.";
 
-    // Reemplaza el código de país en el número de teléfono si es necesario
     numeroTelefono = numeroTelefono.replace("+", "");
-    numeroTelefono = "52" + numeroTelefono;  // Ejemplo: 52 para México
+    numeroTelefono = "54" + numeroTelefono;  
 
-    // Codifica el mensaje para la URL
+   
     mensaje = encodeURIComponent(mensaje);
 
-    // Genera el enlace de WhatsApp
+   
     var enlaceWhatsApp = "https://wa.me/" + numeroTelefono + "?text=" + mensaje;
 
-    // Abre la ventana de WhatsApp
+    
     window.open(enlaceWhatsApp);
 });
 
